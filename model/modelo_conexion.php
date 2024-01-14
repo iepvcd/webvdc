@@ -4,10 +4,10 @@ class conexionBD
     public function conexionPDO(){
 
 
-        $host = '127.0.0.1';
+        $host = 'localhost';
         $usuario = 'u960558345_adminvdc';
         $contrasena = 'Leninpropietario2020';
-        $dbName = 'u960558345-bd-vdc';
+        $dbName = 'u960558345_bd_vdc';
 
 
         try{
